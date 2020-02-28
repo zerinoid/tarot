@@ -1,0 +1,26 @@
+/* style.css */
+
+/* body {
+    background-color: black;
+} */
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-bottom: 35px;
+}
+
+.card {
+    height: 605px;
+    justify-content: flex-end;
+    background: center / cover no-repeat;
+}
+
+.cartela {
+    background-color: rgba(1, 0, 0, 0.7);
+    padding: 2px 18px 0;
+    color: white;
+}
