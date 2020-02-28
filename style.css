@@ -14,7 +14,7 @@
 }
 
 .card {
-    height: 605px;
+    height: 440px;
     justify-content: flex-end;
     background: center / cover no-repeat;
 }
@@ -23,4 +23,9 @@
     background-color: rgba(1, 0, 0, 0.7);
     padding: 2px 18px 0;
     color: white;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 9999;
 }

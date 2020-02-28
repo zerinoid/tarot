@@ -12,14 +12,14 @@ $(document).ready(function () {
 
             for (i = 0; i < tarotData.cards.length; i++) {
 
-                if(i % 3 === 0 ) {
+                if(i % 12 === 0 ) {
                     var row = document.createElement('div');
                     row.classList.add('row');
                     $('.container').append(row);
                 }
                 
                 let col = document.createElement('div');
-                col.classList.add('col-4');
+                col.classList.add('col-6');
                 
                 let card = document.createElement('div');
                 card.classList.add('card');
