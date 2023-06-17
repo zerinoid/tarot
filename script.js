@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // let tarotData = [];
 
-    axios.get(`https://cors-anywhere.herokuapp.com/https://rws-cards-api.herokuapp.com/api/v1/cards`)
+    axios.get("https://tarot-api-3hv5.onrender.com/api/v1/cards/random?n=10")
         .then((response) => {
             
             let tarotData = response.data;
